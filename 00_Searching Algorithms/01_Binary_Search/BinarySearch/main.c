@@ -14,15 +14,11 @@ typedef enum fun_ret{
 uint32_t my_array[MAX_ARRAY] = ARRAY_INIT;
 
 /**
-  * Start traverse from the left most element of my_array[] and one by one compare (Your Element) with each element of my_array[]
-  * If (Your Element) matches with an element in the array, update the "index" of this element and return 'R_OK'.
-  * If (Your Element) doesn’t match with any of the elements in the array, return 'R_NOK'.
+  * s
   */
 
 /**
-  * Linear search is rarely used practically because other search algorithms such as the binary search algorithm
-    allow faster searching comparison to Linear search.
-  * The time complexity of above algorithm is O(n).
+  * d
   */
 
 /**

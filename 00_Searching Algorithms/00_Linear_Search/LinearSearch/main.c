@@ -14,6 +14,10 @@ typedef enum fun_ret{
 uint32_t my_array[MAX_ARRAY] = ARRAY_INIT;
 
 /**
+  * Start from the left most element of my_array[] and one by one compare (Your Element) with each element of my_array[]
+  */
+
+/**
   * @brief  Search for uint32_t element in array based data structure .
   * @param  arr_ptr    Pointer to the array.
   * @param  arr_length Number of elements in the Array.

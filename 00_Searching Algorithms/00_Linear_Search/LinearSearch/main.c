@@ -7,8 +7,8 @@ typedef enum fun_ret{
     R_OK
 }fun_ret_t;
 
-#define MAX_ARRAY 5UL
-#define ARRAY_INIT {11, 22, 33, 44, 55}
+#define MAX_ARRAY 9UL
+#define ARRAY_INIT {11, 22, 33, 44, 55, 66, 77, 88, 99}
 #define ZERO_INIT 0
 
 uint32_t my_array[MAX_ARRAY] = ARRAY_INIT;
@@ -54,7 +54,7 @@ int main()
 
     printf("l_element_index = %i\n", l_element_index);
 
-    ret_status = linear_search(my_array, 5, 44, &l_element_index);
+    ret_status = linear_search(my_array, 9, 66, &l_element_index);
 
     if(R_NOK == ret_status){
         printf("Element Does not Exist !!\n");

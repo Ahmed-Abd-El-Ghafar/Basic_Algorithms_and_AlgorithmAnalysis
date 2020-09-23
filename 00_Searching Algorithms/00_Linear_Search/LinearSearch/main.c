@@ -20,6 +20,11 @@ uint32_t my_array[MAX_ARRAY] = ARRAY_INIT;
   */
 
 /**
+  * Linear search is rarely used practically because other search algorithms such as the binary search algorithm
+    allow faster searching comparison to Linear search.
+  */
+
+/**
   * @brief  Search for uint32_t element in array based data structure .
   * @param  arr_ptr    Pointer to the array.
   * @param  arr_length Number of elements in the Array.

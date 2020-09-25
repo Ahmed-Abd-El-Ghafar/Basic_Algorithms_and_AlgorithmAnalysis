@@ -12,4 +12,5 @@
 	2) Not-in-place Sorting : The program "requires space" which is more than or equal to the elements being sorted.
 		- Ex. Need equal or more extra space -> Ex. (Merge sort)
 
-- 
+- Stable and Not Stable Sorting :
+	- 

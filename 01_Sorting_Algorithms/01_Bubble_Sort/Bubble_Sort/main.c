@@ -67,6 +67,7 @@ fun_ret_t bubble_Sort(uint32_t *my_array, uint32_t arr_length){
                     swap(&my_array[l_counter2], &my_array[l_counter2+1]);
                 }
             }
+            printf("Inner : "); print_array(my_array, MAX_ARRAY);
         }
     }
     return R_OK;

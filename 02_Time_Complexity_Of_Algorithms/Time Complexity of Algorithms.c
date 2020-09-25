@@ -52,17 +52,21 @@
         }
         -> Time Complexity : Linear
             -> The running time of the loop is directly proportional to (N).
-            -> When N doubles -> running time doubles
+            -> When N doubles -> Running time doubles
 
     - Example 3 :
         for(i=0; i < N; i++)
         {
             for(j=0; j < N;j++)
             {
-            statement;
+                statement;
             }
         }
-        ->
+        -> Time Complexity : Quadratic
+            -> The running time of the two loops is proportional to the square of (N).
+            -> When N doubles -> The running time increases by (N * N).
+
+    -
 */
 
 

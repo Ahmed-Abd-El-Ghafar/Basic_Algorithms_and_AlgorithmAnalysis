@@ -8,6 +8,8 @@
 - In-place Sorting and Not-in-place Sorting :
     - Sorting algorithms may require some "extra space" for comparison and temporary storage of few data elements.
 	1) In-place Sorting : Don't require any extra space and sorting is said to happen in-place
-		- Ex. in the same Array -> Ex. (Bubble sort)
+		- Ex. In the same Array -> Ex. (Bubble sort)
 	2) Not-in-place Sorting : The program "requires space" which is more than or equal to the elements being sorted.
-		- 
+		- Ex. Need equal or more extra space -> Ex. (Merge sort)
+
+- 

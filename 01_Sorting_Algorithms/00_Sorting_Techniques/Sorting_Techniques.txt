@@ -5,3 +5,6 @@
 - Data searching can be optimized to a very high level, if data is stored.
 - Sorting is also used to represent data in more readable formats.
 
+- In-place Sorting and Not-in-place Sorting :
+    - Sorting algorithms may require some "extra space" for comparison and temporary storage of few data elements.
+	1) In-place Sorting : Don't require any extra space and sorting is said to happen in-place 

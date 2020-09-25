@@ -17,7 +17,7 @@
 */
 
 /**
-  * What is Time Complexity?
+  * What is Time Complexity ?
     - Time complexity of an algorithm signifies "The total time required by the program to run till its completion".
     - The time complexity of algorithms is most commonly expressed using the "Big O notation".
         - It's an asymptotic notation to represent the time complexity.
@@ -35,7 +35,35 @@
             -> Maximum time taken for any input size.
 */
 
+/**
+  * Calculating Time Complexity ?
+    - The most common metric for calculating time complexity is (Big O notation).
+    - Remove all constant factors -> Running time can be estimated in relation to (N)
 
+    - Example 1 :
+        statement;
+        -> Time Complexity will be Constant (Single statement).
+        -> The running time of the statement will not change in relation to (N).
+
+    - Example 2 :
+        for(i=0; i < N; i++)
+        {
+            statement;
+        }
+        -> Time Complexity : Linear
+            -> The running time of the loop is directly proportional to (N).
+            -> When N doubles -> running time doubles
+
+    - Example 3 :
+        for(i=0; i < N; i++)
+        {
+            for(j=0; j < N;j++)
+            {
+            statement;
+            }
+        }
+        ->
+*/
 
 
 

@@ -10,6 +10,7 @@ typedef enum fun_ret{
 #define MAX_ARRAY 9UL
 #define ARRAY_INIT {99, 22, 77, 44, 88, 66, 33, 55, 11}
 #define ZERO_INIT 0
+#define NO_SWAP 0
 
 uint32_t my_array[MAX_ARRAY] = ARRAY_INIT;
 
@@ -94,11 +95,14 @@ fun_ret_t bubble_sort_optimized(uint32_t *my_array, uint32_t arr_length){
                     l_swap_flag = 1;
                 }
             }
-            if(0 == l_swap_flag){
+            if(NO_SWAP == l_swap_flag){
                 break;
             }
-            else{}
-            printf("Inner : "); print_array(my_array, MAX_ARRAY);
+            else{
+                // Nothing
+            }
+            printf("Inner : ");
+            print_array(my_array, MAX_ARRAY);
         }
     }
     return R_OK;

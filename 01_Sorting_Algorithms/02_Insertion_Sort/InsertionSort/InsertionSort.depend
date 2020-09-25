@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1601045889 source:d:\embedded systems\github\basic_algorithms_and_algorithmanalysis\01_sorting_algorithms\02_insertion_sort\insertionsort\main.c
+	<stdio.h>
+	<stdlib.h>
+
